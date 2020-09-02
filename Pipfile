@@ -5,11 +5,14 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+django-sslserver = "*"
 
 [packages]
 django = "*"
 numpy = "*"
 folium = "*"
+django-heroku = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
